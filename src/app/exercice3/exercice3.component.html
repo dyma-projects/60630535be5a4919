@@ -1,0 +1,5 @@
+<!-- affichage conditionnel des deux paragraphes -->
+<p *ngIf="statut">p1</p>
+<p *ngIf="!statut">p2</p>
+<br />
+<button (click)="statut = !statut">bouton</button>
